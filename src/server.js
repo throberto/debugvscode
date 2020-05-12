@@ -1,5 +1,5 @@
 import express from 'express';
-import {getUsers, addUser} from './repositories/UserRepository';
+import {getUsers} from './repositories/UserRepository';
 
 const app = express();
 
